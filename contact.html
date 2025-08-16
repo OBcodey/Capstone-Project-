@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WebDevProject</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body class="contact">
+    <header id="contact">
+        <nav class="navbar">
+            <a href="index.html" class="nav-branding">Explore</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Highlights</a>
+                </li>
+                <li class="nav-item">
+                    <a href="restaurants.html" class="nav-link">Bars & Restaurants</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Get in Touch</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+      
+            <form  class="form" action="https://formspree.io/f/mldlvknq" method="POST">
+                <h4>Get in Touch!</h4>
+                <input type="text" name="firstname" placeholder="First Name" autocomplete="off" required>
+                <input type="text" name="last name" placeholder="Last Name" required>
+                <input type="text" name="emailadress" placeholder="Email Address" required>
+                <textarea rows="5" cols="60" name="message" placeholder="Sent me a message"></textarea>
+                <button id="form" type="submit">Sent message</button>
+            </form>
+    
+    </main>
+
+    <footer>
+        <ul>
+            <li><i class="fa fa-envelope"></i><a href="mailto:obcodey@live.nl"> Email</a></li>
+            <li><i class="fa fa-instagram"></i><a href="https://www.instagram.com/"> Instagram</a></li>
+            <li><i class="fa fa-arrow-up"></i><a href="#top"> Go back to top</a></li>
+            <li> &copy; OBCodey 2025</li>
+        </ul>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
